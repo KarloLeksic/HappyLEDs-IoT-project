@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/FAX/Semestar 6/Razvoj mobilnoh aplikacija/razvoj-mobilnih-aplikacija-lv/HappyLEDs/app/src/main/res/drawable/fingerprint_white.xml" value="0.1875" />
+        <entry key="..\:/FAX/Semestar 6/Razvoj mobilnoh aplikacija/razvoj-mobilnih-aplikacija-lv/HappyLEDs/app/src/main/res/drawable/ic_brightness24.xml" value="0.2015" />
+        <entry key="..\:/FAX/Semestar 6/Razvoj mobilnoh aplikacija/razvoj-mobilnih-aplikacija-lv/HappyLEDs/app/src/main/res/drawable/newthumb.xml" value="0.188" />
+        <entry key="..\:/FAX/Semestar 6/Razvoj mobilnoh aplikacija/razvoj-mobilnih-aplikacija-lv/HappyLEDs/app/src/main/res/drawable/newtrack.xml" value="0.188" />
+        <entry key="..\:/FAX/Semestar 6/Razvoj mobilnoh aplikacija/razvoj-mobilnih-aplikacija-lv/HappyLEDs/app/src/main/res/layout/activity_change_color.xml" value="0.25416666666666665" />
+        <entry key="..\:/FAX/Semestar 6/Razvoj mobilnoh aplikacija/razvoj-mobilnih-aplikacija-lv/HappyLEDs/app/src/main/res/layout/activity_color_picker.xml" value="0.2" />
+        <entry key="..\:/FAX/Semestar 6/Razvoj mobilnoh aplikacija/razvoj-mobilnih-aplikacija-lv/HappyLEDs/app/src/main/res/layout/activity_colors.xml" value="0.264" />
+        <entry key="..\:/FAX/Semestar 6/Razvoj mobilnoh aplikacija/razvoj-mobilnih-aplikacija-lv/HappyLEDs/app/src/main/res/layout/activity_effect_detail.xml" value="0.4" />
+        <entry key="..\:/FAX/Semestar 6/Razvoj mobilnoh aplikacija/razvoj-mobilnih-aplikacija-lv/HappyLEDs/app/src/main/res/layout/activity_fingerprint.xml" value="0.25416666666666665" />
+        <entry key="..\:/FAX/Semestar 6/Razvoj mobilnoh aplikacija/razvoj-mobilnih-aplikacija-lv/HappyLEDs/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/FAX/Semestar 6/Razvoj mobilnoh aplikacija/razvoj-mobilnih-aplikacija-lv/HappyLEDs/app/src/main/res/layout/card_item.xml" value="0.264" />
+        <entry key="..\:/FAX/Semestar 6/Razvoj mobilnoh aplikacija/razvoj-mobilnih-aplikacija-lv/HappyLEDs/app/src/main/res/layout/each_effect.xml" value="0.1" />
+        <entry key="..\:/FAX/Semestar 6/Razvoj mobilnoh aplikacija/razvoj-mobilnih-aplikacija-lv/HappyLEDs/app/src/main/res/layout/fragment_colors.xml" value="0.264" />
+        <entry key="..\:/FAX/Semestar 6/Razvoj mobilnoh aplikacija/razvoj-mobilnih-aplikacija-lv/HappyLEDs/app/src/main/res/layout/fragment_effects.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

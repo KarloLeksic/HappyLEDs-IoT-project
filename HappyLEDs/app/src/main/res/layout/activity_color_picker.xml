@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".ColorPickerActivity">
+
+    <ImageView
+        android:id="@+id/colorPicker"
+        android:layout_width="380dp"
+        android:layout_height="380dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/colorwheel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/colorView"
+        android:layout_width="409dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/colorPicker" />
+
+    <TextView
+        android:id="@+id/colorCode"
+        android:layout_width="160dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="4dp"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="@+id/colorView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/colorView" />
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/sliderR"
+        app:trackColor="#FFFF0000"
+        app:thumbColor="#FFFF0000"
+        app:tickColorActive="#FFFF0000"
+        app:tickColorInactive="#FFFF0000"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:stepSize="1"
+        android:value="20"
+        android:valueFrom="0"
+        android:valueTo="255"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/colorView"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/sliderSpeed"
+        app:trackColor="#FF00FF00"
+        app:thumbColor="#FF00FF00"
+        app:tickColorActive="#FF00FF00"
+        app:tickColorInactive="#FF00FF00"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:stepSize="1"
+        android:value="20"
+        android:valueFrom="0"
+        android:valueTo="255"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sliderR"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/sliderB"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:stepSize="1"
+        android:value="20"
+        android:valueFrom="0"
+        android:valueTo="255"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sliderSpeed"
+        app:thumbColor="#FF0000FF"
+        app:tickColorActive="#FF0000FF"
+        app:tickColorInactive="#FF0000FF"
+        app:trackColor="#FF0000FF"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/applyBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="Set Color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
